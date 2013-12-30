@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'korea-glyphs';
-	src:url('fonts/korea-glyphs.eot');
-	src:url('fonts/korea-glyphs.eot?#iefix') format('embedded-opentype'),
-		url('fonts/korea-glyphs.ttf') format('truetype'),
-		url('fonts/korea-glyphs.woff') format('woff'),
-		url('fonts/korea-glyphs.svg#korea-glyphs') format('svg');
+	font-family: 'iKon';
+	src:url('fonts/iKon.eot');
+	src:url('fonts/iKon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/iKon.ttf') format('truetype'),
+		url('fonts/iKon.woff') format('woff'),
+		url('fonts/iKon.svg#iKon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'korea-glyphs';
+	font-family: 'iKon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-daum:before {
+	content: "\e601";
+}
 .icon-kakaotalk:before {
 	content: "\e600";
 }
