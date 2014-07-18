@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'iKon';
-	src:url('fonts/iKon.eot');
-	src:url('fonts/iKon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/iKon.ttf') format('truetype'),
-		url('fonts/iKon.woff') format('woff'),
-		url('fonts/iKon.svg#iKon') format('svg');
+	src:url('fonts/iKon.eot?tmuw8t');
+	src:url('fonts/iKon.eot?#iefixtmuw8t') format('embedded-opentype'),
+		url('fonts/iKon.woff?tmuw8t') format('woff'),
+		url('fonts/iKon.ttf?tmuw8t') format('truetype'),
+		url('fonts/iKon.svg?tmuw8t#iKon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-kakaostory:before {
+	content: "\e602";
+}
+.icon-line:before {
+	content: "\e603";
+}
 .icon-daum:before {
 	content: "\e601";
 }

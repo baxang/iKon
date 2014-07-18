@@ -1,8 +1,7 @@
 iKon
 ====
 
-한국 인터넷 서비스들의 로고를 웹폰트로 만들었습니다.
-A collection of Korean BI/CIs in vector.
+ikon is a collection of vector logos or icon fonts that useful for building Korean websites. Because they are not found elsewhere.
 
 Demo: http://baxang.github.io/iKon/
 
